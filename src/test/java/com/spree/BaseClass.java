@@ -30,4 +30,8 @@ public class BaseClass {
 		System.out.println("oAuth Token is =>  " + accessToken);
 		return accessToken;
 	}
+	
+	public void deleteAddress() {
+		
+	}
 }

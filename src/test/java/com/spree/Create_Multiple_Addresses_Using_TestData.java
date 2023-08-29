@@ -1,11 +1,9 @@
 package com.spree;
 
 import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;
@@ -13,7 +11,6 @@ import io.restassured.response.Response;
 
 public class Create_Multiple_Addresses_Using_TestData {
 	String accessToken;
-	
 	@BeforeClass
 	public void pre_condition() {
 		accessToken = BaseClass.oAuth_Token();
