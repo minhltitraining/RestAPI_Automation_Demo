@@ -1,0 +1,13 @@
+{
+  "address": {
+    "firstname": "Komal",
+    "lastname": "K",
+    "company": "LTI",
+    "address1": "123 Main St",
+    "city": "Dallas",
+    "phone": "123123123",
+    "zipcode": "75000",
+    "state_name": "TX",
+    "country_iso": "US"
+  }
+}
