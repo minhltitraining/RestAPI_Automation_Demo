@@ -5,9 +5,6 @@
     "company": "LTI",
     "address1": "456 6th St",
     "city": "Austin",
-    "phone": "123123123",
-    "zipcode": "75000",
-    "state_name": "TX",
     "country_iso": "US"
   }
 }

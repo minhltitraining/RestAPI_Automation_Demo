@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.spree.Create_Delete_An_Address">
+      <class name="com.spree.Create_Multiple_Addresses_Using_TestData">
         <methods>
-          <include name="deleteAddress"/>
-          <include name="oAuth_Token"/>
+          <include name="pre_condition"/>
+          <include name="countAddress"/>
         </methods>
-      </class> <!-- com.spree.Create_Delete_An_Address -->
+      </class> <!-- com.spree.Create_Multiple_Addresses_Using_TestData -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
