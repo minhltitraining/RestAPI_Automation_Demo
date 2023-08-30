@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.spree.Create_Bad_Addresses">
+      <class name="com.spree.Create_Cart_AddItem_Associate_User">
         <methods>
-          <include name="addBadAddresses" invocation-numbers="4 7"/>
           <include name="pre_condition"/>
+          <include name="addItemToCart"/>
         </methods>
-      </class> <!-- com.spree.Create_Bad_Addresses -->
+      </class> <!-- com.spree.Create_Cart_AddItem_Associate_User -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
