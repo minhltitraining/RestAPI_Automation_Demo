@@ -2,7 +2,9 @@
   "address": {
     "firstname": "Komal",
     "lastname": "K",
-    "company": "LTI",
+    "phone": "1",
+    "zipcode": "12345",
+    "state_name":"TX",
     "address1": "123 Main St",
     "city": "Dallas",
     "country_iso": "US"

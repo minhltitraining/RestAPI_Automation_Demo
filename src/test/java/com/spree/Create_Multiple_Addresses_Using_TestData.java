@@ -14,6 +14,7 @@ public class Create_Multiple_Addresses_Using_TestData {
 	@BeforeClass
 	public void pre_condition() {
 		accessToken = BaseClass.oAuth_Token();
+		BaseClass.deleteAllAddresses(accessToken);
 	}
 	
 	@Test(dataProvider = "Addresses", dataProviderClass = Spreecom_TestData.class, priority = 1)
