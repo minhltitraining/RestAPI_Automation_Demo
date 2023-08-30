@@ -1,21 +1,476 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-29T17:24:35 CDT" name="Default suite" finished-at="2023-08-29T17:24:38 CDT" duration-ms="2510">
+  <suite started-at="2023-08-29T22:16:43 CDT" name="Default suite" finished-at="2023-08-29T22:16:47 CDT" duration-ms="4306">
     <groups>
     </groups>
-    <test started-at="2023-08-29T17:24:35 CDT" name="Default test" finished-at="2023-08-29T17:24:38 CDT" duration-ms="2510">
-      <class name="com.spree.Delete_All_Addresses">
-        <test-method is-config="true" signature="pre_condition()[pri:0, instance:com.spree.Delete_All_Addresses@c33b74f]" started-at="2023-08-29T17:24:35 CDT" name="pre_condition" finished-at="2023-08-29T17:24:37 CDT" duration-ms="1247" status="PASS">
+    <test started-at="2023-08-29T22:16:43 CDT" name="Default test" finished-at="2023-08-29T22:16:47 CDT" duration-ms="4306">
+      <class name="com.spree.Create_Bad_Addresses">
+        <test-method is-config="true" signature="pre_condition()[pri:0, instance:com.spree.Create_Bad_Addresses@130161f7]" started-at="2023-08-29T22:16:43 CDT" name="pre_condition" finished-at="2023-08-29T22:16:44 CDT" duration-ms="1782" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- pre_condition -->
-        <test-method signature="deleteAllAddresses()[pri:0, instance:com.spree.Delete_All_Addresses@c33b74f]" started-at="2023-08-29T17:24:37 CDT" name="deleteAllAddresses" finished-at="2023-08-29T17:24:38 CDT" duration-ms="1246" status="PASS">
+        <test-method signature="addSameAddressLable(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.spree.Create_Bad_Addresses@130161f7]" started-at="2023-08-29T22:16:45 CDT" name="addSameAddressLable" data-provider="addressWithLabel" finished-at="2023-08-29T22:16:45 CDT" duration-ms="637" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Minh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100 1st St]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteAllAddresses -->
-      </class> <!-- com.spree.Delete_All_Addresses -->
+        </test-method> <!-- addSameAddressLable -->
+        <test-method signature="addBadAddresses(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.Create_Bad_Addresses@130161f7]" started-at="2023-08-29T22:16:45 CDT" name="addBadAddresses" data-provider="BadAddresses" finished-at="2023-08-29T22:16:45 CDT" duration-ms="242" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100 1st St]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[emptyFirstname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBadAddresses -->
+        <test-method signature="addBadAddresses(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.Create_Bad_Addresses@130161f7]" started-at="2023-08-29T22:16:45 CDT" name="addBadAddresses" data-provider="BadAddresses" finished-at="2023-08-29T22:16:46 CDT" duration-ms="262" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Minh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100 1st St]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[emptyLastname]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBadAddresses -->
+        <test-method signature="addBadAddresses(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.Create_Bad_Addresses@130161f7]" started-at="2023-08-29T22:16:46 CDT" name="addBadAddresses" data-provider="BadAddresses" finished-at="2023-08-29T22:16:46 CDT" duration-ms="222" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Minh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[emptyAddress1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBadAddresses -->
+        <test-method signature="addBadAddresses(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.Create_Bad_Addresses@130161f7]" started-at="2023-08-29T22:16:46 CDT" name="addBadAddresses" data-provider="BadAddresses" finished-at="2023-08-29T22:16:46 CDT" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Minh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100 1st St]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[emptyCity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBadAddresses -->
+        <test-method signature="addBadAddresses(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.Create_Bad_Addresses@130161f7]" started-at="2023-08-29T22:16:46 CDT" name="addBadAddresses" data-provider="BadAddresses" finished-at="2023-08-29T22:16:46 CDT" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Minh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100 1st St]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[emptyZipcode]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBadAddresses -->
+        <test-method signature="addBadAddresses(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.Create_Bad_Addresses@130161f7]" started-at="2023-08-29T22:16:46 CDT" name="addBadAddresses" data-provider="BadAddresses" finished-at="2023-08-29T22:16:47 CDT" duration-ms="215" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Minh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100 1st St]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[emptyPhoneNumber]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBadAddresses -->
+        <test-method signature="addBadAddresses(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.Create_Bad_Addresses@130161f7]" started-at="2023-08-29T22:16:47 CDT" name="addBadAddresses" data-provider="BadAddresses" finished-at="2023-08-29T22:16:47 CDT" duration-ms="223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Minh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100 1st St]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[US]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[emptyState]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBadAddresses -->
+        <test-method signature="addBadAddresses(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:com.spree.Create_Bad_Addresses@130161f7]" started-at="2023-08-29T22:16:47 CDT" name="addBadAddresses" data-provider="BadAddresses" finished-at="2023-08-29T22:16:47 CDT" duration-ms="210" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Minh1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[N1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[100 1st St]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Dallas]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[75001]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[TX]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[emptyCountry]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addBadAddresses -->
+      </class> <!-- com.spree.Create_Bad_Addresses -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

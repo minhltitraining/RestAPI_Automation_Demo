@@ -30,7 +30,6 @@ public class Create_Multiple_Addresses_Using_TestData {
 		newAddress.put("country_iso", country);
 		JSONObject body = new JSONObject();
 		body.put("address", newAddress);
-		System.out.println(body);
 		Response response = RestAssured.given()
 				.auth()
 				.oauth2(accessToken)
